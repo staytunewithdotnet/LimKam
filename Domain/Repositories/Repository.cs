@@ -7,9 +7,9 @@ namespace LimKam.Domain.Repositories
 {
     public abstract class Repository<T> : IRepository<T> where T : class
     {
-        protected readonly AppDbContext _context;
+        protected readonly AppDBContext _context;
 
-        public Repository(AppDbContext context)
+        public Repository(AppDBContext context)
         {
             _context = context;
         }

@@ -6,9 +6,9 @@ namespace LimKam.Domain.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly AppDbContext _context;
+        private readonly AppDBContext _context;
 
-        public UnitOfWork(AppDbContext context)
+        public UnitOfWork(AppDBContext context)
         {
             _context = context;
         }

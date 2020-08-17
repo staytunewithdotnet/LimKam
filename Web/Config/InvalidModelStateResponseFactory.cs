@@ -1,5 +1,5 @@
 using System.Linq;
-using LimKam.Controllers.Resources;
+using LimKam.Domain.Resources;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LimKam.Config

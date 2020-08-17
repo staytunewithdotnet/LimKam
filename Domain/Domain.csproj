@@ -6,9 +6,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\**" />
+    <Compile Remove="Queries\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="Queries\**" />
+    <None Remove="Models\**" />
+    <None Remove="Queries\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Models\AppDBContext.cs" />
+    <Compile Include="Models\Branch.cs" />
+    <Compile Include="Models\Course.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
     <PackageReference Include="MediatR" Version="8.1.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>

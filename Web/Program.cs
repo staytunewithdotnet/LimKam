@@ -18,7 +18,7 @@ namespace Web
             var host = CreateHostBuilder(args).Build();
 
             using (var scope = host.Services.CreateScope())
-            using (var context = scope.ServiceProvider.GetService<AppDbContext>())
+            using (var context = scope.ServiceProvider.GetService<AppDBContext>())
             {
                 // Necessary to seed the InMemory database initial data
                 context.Database.EnsureCreated();
