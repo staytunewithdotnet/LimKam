@@ -6,7 +6,6 @@ namespace LimKam.Domain.Models
     public partial class Course
     {
         public int Id { get; set; }
-        public int CourseId { get; set; }
         public string CourseName { get; set; }
         public string CourseCode { get; set; }
         public int? EntryUserId { get; set; }

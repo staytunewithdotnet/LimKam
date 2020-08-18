@@ -1,0 +1,6 @@
+2020-08-19T00:38:38.4171940+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-08-19T00:38:38.4228565+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2020-08-19T00:38:38.4248518+05:30  [INF] Content root path: "C:\codestore\lokee\LimKam\Web" (b5d60022)
+2020-08-19T00:40:54.9800451+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-08-19T00:40:54.9856959+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2020-08-19T00:40:54.9885894+05:30  [INF] Content root path: "C:\codestore\lokee\LimKam\Web" (b5d60022)

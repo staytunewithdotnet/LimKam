@@ -31,8 +31,6 @@ namespace LimKam.Domain.Models
         {
             modelBuilder.Entity<Branch>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
-
                 entity.Property(e => e.BranchCode)
                     .HasMaxLength(50)
                     .IsUnicode(false);
@@ -52,8 +50,6 @@ namespace LimKam.Domain.Models
 
             modelBuilder.Entity<Course>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
-
                 entity.Property(e => e.CourseCode)
                     .HasMaxLength(50)
                     .IsUnicode(false);
